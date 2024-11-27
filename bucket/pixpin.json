@@ -7,7 +7,7 @@
     "hash": "2743f5e32a9acfd8d5e3b7a5e10c725ea21268b6fbc5c1f1ca167c7618d14007",
     "extract_dir": "PixPin",
     "bin": "PixPin.exe",
-    "shortcuts": [ 
+    "shortcuts": [
         [
             "PixPin.exe",
             "PixPin"
