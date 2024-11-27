@@ -5,12 +5,18 @@
     "license": "Freeware",
     "url": "https://download.pixpinapp.com/PixPin_1.9.5.0.zip",
     "hash": "2743f5e32a9acfd8d5e3b7a5e10c725ea21268b6fbc5c1f1ca167c7618d14007",
-    "bin": "PixPin\\PixPin.exe",
-    "shortcuts": [
+    "extract_dir": "PixPin",
+    "bin": "PixPin.exe",
+    "shortcuts": [ 
         [
-            "PixPin\\PixPin.exe",
+            "PixPin.exe",
             "PixPin"
         ]
+    ],
+    "persist": [
+        "History",
+        "Data",
+        "Config"
     ],
     "checkver": {
         "url": "https://api.viewdepth.cn/app_info?app_id=pixpin&sys=win",
