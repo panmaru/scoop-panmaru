@@ -19,7 +19,7 @@
         "Config"
     ],
     "checkver": {
-        "url": "https://api.viewdepth.cn/app_info?app_id=pixpin&sys=win",
+        "url": "https://api.viewdepth.cn/app_info?app_id=pixpin&update_type=0&sys=win&ver=2.0.0.3",
         "jsonpath": "$..version"
     },
     "autoupdate": {
